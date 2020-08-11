@@ -3,15 +3,15 @@ Departments
 dept_no PK varchar
 dept_name varchar
 
-Department_Employee
+Dept_Employee
 -
-emp_no varchar FK >- employees.emp_no
-dept_no varchar FK -  departments.dept_no
+emp_no int FK - employees.emp_no
+dept_no varchar FK >-  departments.dept_no
 
 Dept_Manager
 -
 dept_no varchar FK >- departments.dept_no
-emp_no varchar FK - employees.emp_no
+emp_no int FK - employees.emp_no
 
 Employees
 -
